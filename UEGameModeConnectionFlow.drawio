@@ -1,0 +1,191 @@
+<mxfile host="app.diagrams.net" modified="2023-12-06T10:38:01.351Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="r6ZYiugUT201XtG2xRtt" version="22.1.5" type="github">
+  <diagram name="第 1 页" id="45hWRI977p0iXt-T-7tm">
+    <mxGraphModel dx="2853" dy="1119" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PgV0q_a90_hvE49-VI4S-1" value="Send Hello&lt;br&gt;(UPendingNetGame::SendInitialJoin" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="5" y="270" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PgV0q_a90_hvE49-VI4S-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="PgV0q_a90_hvE49-VI4S-2" target="PgV0q_a90_hvE49-VI4S-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PgV0q_a90_hvE49-VI4S-2" value="Receive Hello&lt;br&gt;UWorld::NotifyControlMessage()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="640" y="270" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PgV0q_a90_hvE49-VI4S-3" value="Client&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="80" y="220" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PgV0q_a90_hvE49-VI4S-4" value="Server&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="720" y="190" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PgV0q_a90_hvE49-VI4S-5" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="PgV0q_a90_hvE49-VI4S-1" target="PgV0q_a90_hvE49-VI4S-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="300" as="sourcePoint" />
+            <mxPoint x="330" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PgV0q_a90_hvE49-VI4S-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="PgV0q_a90_hvE49-VI4S-6" target="PgV0q_a90_hvE49-VI4S-27" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PgV0q_a90_hvE49-VI4S-6" value="Send Challenge&lt;br&gt;UNetConnection::SendChallengeControlMessage()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="585" y="700" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PgV0q_a90_hvE49-VI4S-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="PgV0q_a90_hvE49-VI4S-14" target="PgV0q_a90_hvE49-VI4S-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PgV0q_a90_hvE49-VI4S-19" value="OK" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="PgV0q_a90_hvE49-VI4S-9" vertex="1" connectable="0">
+          <mxGeometry x="-0.0286" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PgV0q_a90_hvE49-VI4S-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="PgV0q_a90_hvE49-VI4S-7" target="PgV0q_a90_hvE49-VI4S-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PgV0q_a90_hvE49-VI4S-7" value="Check Version" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="685" y="390" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PgV0q_a90_hvE49-VI4S-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="PgV0q_a90_hvE49-VI4S-7" target="PgV0q_a90_hvE49-VI4S-14" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="750" y="470" as="sourcePoint" />
+            <mxPoint x="750" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PgV0q_a90_hvE49-VI4S-18" value="OK" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="PgV0q_a90_hvE49-VI4S-15" vertex="1" connectable="0">
+          <mxGeometry x="0.2286" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PgV0q_a90_hvE49-VI4S-14" value="Check Encryption" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="685" y="540" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PgV0q_a90_hvE49-VI4S-25" value="Some delegates in FNetDelegates can be bound to check encryption logic" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" parent="1" vertex="1">
+          <mxGeometry x="870" y="530" width="220" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="PgV0q_a90_hvE49-VI4S-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="PgV0q_a90_hvE49-VI4S-27" target="PgV0q_a90_hvE49-VI4S-29" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PgV0q_a90_hvE49-VI4S-27" value="Receive Challenge&lt;br&gt;UPendingNetGame::NotifyControlMessage" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="-10" y="700" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PgV0q_a90_hvE49-VI4S-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="PgV0q_a90_hvE49-VI4S-29" target="PgV0q_a90_hvE49-VI4S-31" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="1190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PgV0q_a90_hvE49-VI4S-29" value="Collect data to send&lt;br&gt;&lt;br&gt;LocalPlayer:&lt;br&gt;GetNickName()&lt;br&gt;GetGameLoginOptions()&lt;br&gt;GetPreferredUniqueNetId() -&amp;gt; set to Connection-&amp;gt;PlayerId&lt;br&gt;&lt;br&gt;GameInstance:&lt;br&gt;GetOnlinePlatformName()" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-82.5" y="890" width="385" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="PgV0q_a90_hvE49-VI4S-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="PgV0q_a90_hvE49-VI4S-31" target="PgV0q_a90_hvE49-VI4S-33" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="1199" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PgV0q_a90_hvE49-VI4S-31" value="Send Login&lt;br&gt;(With collected data)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="50" y="1169" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PgV0q_a90_hvE49-VI4S-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="PgV0q_a90_hvE49-VI4S-33" target="PgV0q_a90_hvE49-VI4S-35" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="750" y="1320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PgV0q_a90_hvE49-VI4S-33" value="Receive Login&lt;br&gt;UWorld::NotifyControlMessage()" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="630" y="1169" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PgV0q_a90_hvE49-VI4S-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="PgV0q_a90_hvE49-VI4S-35" target="PgV0q_a90_hvE49-VI4S-37" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PgV0q_a90_hvE49-VI4S-35" value="Set Connection data:&lt;br&gt;PlayerId&lt;br&gt;PlaterOnlinePlatformName&lt;br&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="630" y="1280" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PgV0q_a90_hvE49-VI4S-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="PgV0q_a90_hvE49-VI4S-37" target="PgV0q_a90_hvE49-VI4S-41" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="750" y="1560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PgV0q_a90_hvE49-VI4S-37" value="GameMode::PreLogin(Url, Address, UniqueNetId)" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="600" y="1400" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PgV0q_a90_hvE49-VI4S-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="PgV0q_a90_hvE49-VI4S-40" target="PgV0q_a90_hvE49-VI4S-46" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="1760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PgV0q_a90_hvE49-VI4S-40" value="Send Welcome&lt;br&gt;UWorld::WelcomePlayer(LevelName, GameModeName, RedirectURL)" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="540" y="1730" width="420" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PgV0q_a90_hvE49-VI4S-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="PgV0q_a90_hvE49-VI4S-41" target="PgV0q_a90_hvE49-VI4S-42" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PgV0q_a90_hvE49-VI4S-41" value="GameInstance::ModifyClientTravelLevelURL(&amp;amp;LevelName&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="585" y="1510" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PgV0q_a90_hvE49-VI4S-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="PgV0q_a90_hvE49-VI4S-42" target="PgV0q_a90_hvE49-VI4S-40" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PgV0q_a90_hvE49-VI4S-42" value="GameMode::GameWelcomePlayer(&amp;amp;RedirectURL&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="600" y="1620" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PgV0q_a90_hvE49-VI4S-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="PgV0q_a90_hvE49-VI4S-46" target="PgV0q_a90_hvE49-VI4S-48" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="1880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PgV0q_a90_hvE49-VI4S-46" value="Receive Welcome&lt;br&gt;UPendingNetGame::NotifyControlMessage" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="-15" y="1730" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PgV0q_a90_hvE49-VI4S-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="PgV0q_a90_hvE49-VI4S-48" target="PgV0q_a90_hvE49-VI4S-51" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="1980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PgV0q_a90_hvE49-VI4S-48" value="UPendingNetGame&lt;br&gt;Set URL based on message&lt;br&gt;Set&amp;nbsp;bSuccessfullyConnected = true" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-40" y="1860" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PgV0q_a90_hvE49-VI4S-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="PgV0q_a90_hvE49-VI4S-50" target="PgV0q_a90_hvE49-VI4S-54" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="2290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PgV0q_a90_hvE49-VI4S-50" value="UEngine::TickWorldTravel() -&amp;gt;LoadMap()&lt;br&gt;-&amp;gt;UPendingNetGame::TravelCompleted()" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-45" y="2150" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PgV0q_a90_hvE49-VI4S-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="PgV0q_a90_hvE49-VI4S-51" target="PgV0q_a90_hvE49-VI4S-50" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PgV0q_a90_hvE49-VI4S-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="PgV0q_a90_hvE49-VI4S-51" target="PgV0q_a90_hvE49-VI4S-56" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="2030" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PgV0q_a90_hvE49-VI4S-51" value="Send Netspeed" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="-5" y="2000" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PgV0q_a90_hvE49-VI4S-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="PgV0q_a90_hvE49-VI4S-54" target="PgV0q_a90_hvE49-VI4S-60" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PgV0q_a90_hvE49-VI4S-54" value="Send Join&lt;br&gt;UPendingNetGame::SendJoin()" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="-20" y="2278" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PgV0q_a90_hvE49-VI4S-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="PgV0q_a90_hvE49-VI4S-56" target="PgV0q_a90_hvE49-VI4S-58" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="750" y="2100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PgV0q_a90_hvE49-VI4S-56" value="Receive Netspeed&lt;br&gt;UWorld::NotifyControlMessage()" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="640" y="2000" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PgV0q_a90_hvE49-VI4S-58" value="Set&amp;nbsp;Connection-&amp;gt;CurrentNetSpeed&amp;nbsp;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="638.5" y="2100" width="223" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PgV0q_a90_hvE49-VI4S-60" value="Receive Join&lt;br&gt;UWorld::NotifyControlMessage()" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="640" y="2278" width="220" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
