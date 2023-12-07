@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-07T04:57:13.388Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="jkyrXNLdMDJkZRxRnIzf" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-07T05:01:51.345Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="YKmc_dX2be-4PELb1p6b" version="22.1.5" type="github">
   <diagram name="第 1 页" id="45hWRI977p0iXt-T-7tm">
     <mxGraphModel dx="4879" dy="2238" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -130,7 +130,7 @@
             <mxPoint x="110" y="2131" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PgV0q_a90_hvE49-VI4S-50" value="&lt;b&gt;Client Load Map&lt;/b&gt;&lt;br&gt;UEngine::TickWorldTravel() -&amp;gt;LoadMap()&lt;br style=&quot;font-size: 17px;&quot;&gt;-&amp;gt;UPendingNetGame::TravelCompleted()" style="whiteSpace=wrap;html=1;fontSize=17;" parent="1" vertex="1">
+        <mxCell id="PgV0q_a90_hvE49-VI4S-50" value="&lt;b&gt;Client load map(in next tick)&lt;/b&gt;&lt;br&gt;UEngine::TickWorldTravel() -&amp;gt;LoadMap()&lt;br style=&quot;font-size: 17px;&quot;&gt;-&amp;gt;UPendingNetGame::TravelCompleted()" style="whiteSpace=wrap;html=1;fontSize=17;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="-55" y="1890" width="405" height="80" as="geometry" />
         </mxCell>
         <mxCell id="PgV0q_a90_hvE49-VI4S-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=17;" parent="1" source="PgV0q_a90_hvE49-VI4S-51" target="PgV0q_a90_hvE49-VI4S-50" edge="1">
@@ -204,7 +204,7 @@
             <mxPoint x="975" y="2321" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TGgTCEU2_xpwJaXPCkcR-10" value="AGameSession::RegisterPlayer()&lt;br style=&quot;font-size: 17px;&quot;&gt;Will assign ids to player state" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fontSize=17;" vertex="1" parent="1">
+        <mxCell id="TGgTCEU2_xpwJaXPCkcR-10" value="AGameSession::RegisterPlayer()&lt;br style=&quot;font-size: 17px;&quot;&gt;Will assign ids to player state" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fontSize=17;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="1195" y="2150" width="290" height="60" as="geometry" />
         </mxCell>
         <mxCell id="TGgTCEU2_xpwJaXPCkcR-11" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=17;" edge="1" target="TGgTCEU2_xpwJaXPCkcR-10" parent="1" source="TGgTCEU2_xpwJaXPCkcR-8">
@@ -244,7 +244,7 @@
         <mxCell id="TGgTCEU2_xpwJaXPCkcR-21" value="AGameModeBase::PostLogin()" style="whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
           <mxGeometry x="617.51" y="2426" width="265" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="TGgTCEU2_xpwJaXPCkcR-23" value="RPC is safe to call now!&lt;br style=&quot;font-size: 17px;&quot;&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fontSize=17;" vertex="1" parent="1">
+        <mxCell id="TGgTCEU2_xpwJaXPCkcR-23" value="RPC is safe to call now!&lt;br style=&quot;font-size: 17px;&quot;&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fontSize=17;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="940" y="2370" width="220" height="40" as="geometry" />
         </mxCell>
         <mxCell id="TGgTCEU2_xpwJaXPCkcR-24" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=17;" edge="1" target="TGgTCEU2_xpwJaXPCkcR-23" parent="1" source="TGgTCEU2_xpwJaXPCkcR-21">
@@ -268,7 +268,7 @@
         <mxCell id="TGgTCEU2_xpwJaXPCkcR-27" value="UWorld:;WelcomPlayer()" style="whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
           <mxGeometry x="627.5" y="1404" width="245" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="TGgTCEU2_xpwJaXPCkcR-31" value="GameInstance::ModifyClientTravelLevelURL()&lt;br style=&quot;font-size: 17px;&quot;&gt;Can modify the client travel url" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fontSize=17;" vertex="1" parent="1">
+        <mxCell id="TGgTCEU2_xpwJaXPCkcR-31" value="GameInstance::ModifyClientTravelLevelURL()&lt;br style=&quot;font-size: 17px;&quot;&gt;Can modify the client travel url" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fontSize=17;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="957.5" y="1330" width="390" height="60" as="geometry" />
         </mxCell>
         <mxCell id="TGgTCEU2_xpwJaXPCkcR-32" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=17;" edge="1" target="TGgTCEU2_xpwJaXPCkcR-31" parent="1" source="TGgTCEU2_xpwJaXPCkcR-27">
@@ -287,7 +287,7 @@
             <mxPoint x="995" y="1471" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TGgTCEU2_xpwJaXPCkcR-35" value="Will try to spawn the Pawn in the end!" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fontSize=17;" vertex="1" parent="1">
+        <mxCell id="TGgTCEU2_xpwJaXPCkcR-35" value="Will try to spawn the Pawn in the end!" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fontSize=17;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="940" y="2426" width="330" height="40" as="geometry" />
         </mxCell>
         <mxCell id="TGgTCEU2_xpwJaXPCkcR-36" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=17;" edge="1" target="TGgTCEU2_xpwJaXPCkcR-35" parent="1" source="TGgTCEU2_xpwJaXPCkcR-21">
@@ -303,7 +303,7 @@
             <mxPoint x="945" y="2561" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TGgTCEU2_xpwJaXPCkcR-39" value="LocalPlayer:&lt;br style=&quot;border-color: var(--border-color); font-size: 17px;&quot;&gt;GetNickName()&lt;br style=&quot;border-color: var(--border-color); font-size: 17px;&quot;&gt;GetGameLoginOptions()&lt;br style=&quot;border-color: var(--border-color); font-size: 17px;&quot;&gt;GetPreferredUniqueNetId() -&amp;gt; set to Connection-&amp;gt;PlayerId" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fontSize=17;" vertex="1" parent="1">
+        <mxCell id="TGgTCEU2_xpwJaXPCkcR-39" value="LocalPlayer:&lt;br style=&quot;border-color: var(--border-color); font-size: 17px;&quot;&gt;GetNickName()&lt;br style=&quot;border-color: var(--border-color); font-size: 17px;&quot;&gt;GetGameLoginOptions()&lt;br style=&quot;border-color: var(--border-color); font-size: 17px;&quot;&gt;GetPreferredUniqueNetId() -&amp;gt; set to Connection-&amp;gt;PlayerId" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fontSize=17;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="-495" y="770" width="480" height="100" as="geometry" />
         </mxCell>
         <mxCell id="TGgTCEU2_xpwJaXPCkcR-40" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=17;" edge="1" target="TGgTCEU2_xpwJaXPCkcR-39" parent="1" source="PgV0q_a90_hvE49-VI4S-29">
