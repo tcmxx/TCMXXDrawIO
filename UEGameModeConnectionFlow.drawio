@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-06T10:38:06.349Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="tlqR-_KGAXDWmZCmNWz9" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-07T02:19:16.504Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="_bOjOsRsO0zPVY3dq--b" version="22.1.5" type="github">
   <diagram name="第 1 页" id="45hWRI977p0iXt-T-7tm">
-    <mxGraphModel dx="2853" dy="1119" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2757" dy="1066" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -61,9 +61,6 @@
         <mxCell id="PgV0q_a90_hvE49-VI4S-14" value="Check Encryption" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="685" y="540" width="130" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="PgV0q_a90_hvE49-VI4S-25" value="Some delegates in FNetDelegates can be bound to check encryption logic" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" parent="1" vertex="1">
-          <mxGeometry x="870" y="530" width="220" height="110" as="geometry" />
-        </mxCell>
         <mxCell id="PgV0q_a90_hvE49-VI4S-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="PgV0q_a90_hvE49-VI4S-27" target="PgV0q_a90_hvE49-VI4S-29" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="110" y="930" as="targetPoint" />
@@ -102,12 +99,10 @@
         <mxCell id="PgV0q_a90_hvE49-VI4S-35" value="Set Connection data:&lt;br&gt;PlayerId&lt;br&gt;PlaterOnlinePlatformName&lt;br&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="630" y="1280" width="240" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PgV0q_a90_hvE49-VI4S-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="PgV0q_a90_hvE49-VI4S-37" target="PgV0q_a90_hvE49-VI4S-41" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="750" y="1560" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="TGgTCEU2_xpwJaXPCkcR-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PgV0q_a90_hvE49-VI4S-37" target="TGgTCEU2_xpwJaXPCkcR-27">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PgV0q_a90_hvE49-VI4S-37" value="GameMode::PreLogin(Url, Address, UniqueNetId)" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="PgV0q_a90_hvE49-VI4S-37" value="AGameModeBase::PreLogin(Url, Address, UniqueNetId)" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="600" y="1400" width="300" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PgV0q_a90_hvE49-VI4S-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="PgV0q_a90_hvE49-VI4S-40" target="PgV0q_a90_hvE49-VI4S-46" edge="1">
@@ -117,18 +112,6 @@
         </mxCell>
         <mxCell id="PgV0q_a90_hvE49-VI4S-40" value="Send Welcome&lt;br&gt;UWorld::WelcomePlayer(LevelName, GameModeName, RedirectURL)" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="540" y="1730" width="420" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="PgV0q_a90_hvE49-VI4S-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="PgV0q_a90_hvE49-VI4S-41" target="PgV0q_a90_hvE49-VI4S-42" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="PgV0q_a90_hvE49-VI4S-41" value="GameInstance::ModifyClientTravelLevelURL(&amp;amp;LevelName&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="585" y="1510" width="330" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="PgV0q_a90_hvE49-VI4S-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="PgV0q_a90_hvE49-VI4S-42" target="PgV0q_a90_hvE49-VI4S-40" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="PgV0q_a90_hvE49-VI4S-42" value="GameMode::GameWelcomePlayer(&amp;amp;RedirectURL&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="600" y="1620" width="300" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PgV0q_a90_hvE49-VI4S-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="PgV0q_a90_hvE49-VI4S-46" target="PgV0q_a90_hvE49-VI4S-48" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -182,8 +165,129 @@
         <mxCell id="PgV0q_a90_hvE49-VI4S-58" value="Set&amp;nbsp;Connection-&amp;gt;CurrentNetSpeed&amp;nbsp;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="638.5" y="2100" width="223" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="TGgTCEU2_xpwJaXPCkcR-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PgV0q_a90_hvE49-VI4S-60" target="TGgTCEU2_xpwJaXPCkcR-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="750" y="2420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="PgV0q_a90_hvE49-VI4S-60" value="Receive Join&lt;br&gt;UWorld::NotifyControlMessage()" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="640" y="2278" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TGgTCEU2_xpwJaXPCkcR-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TGgTCEU2_xpwJaXPCkcR-2" target="TGgTCEU2_xpwJaXPCkcR-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="750" y="2560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TGgTCEU2_xpwJaXPCkcR-2" value="AGameModeBase::Login()" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="655" y="2450" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TGgTCEU2_xpwJaXPCkcR-3" value="SpawnPlayerController()" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="935" y="2360" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TGgTCEU2_xpwJaXPCkcR-4" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="TGgTCEU2_xpwJaXPCkcR-3" parent="1" source="TGgTCEU2_xpwJaXPCkcR-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="940" y="2490" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="880" y="2480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TGgTCEU2_xpwJaXPCkcR-6" value="Some delegates in FNetDelegates can be bound to check encryption logic" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="950" y="450" width="245" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="TGgTCEU2_xpwJaXPCkcR-7" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="TGgTCEU2_xpwJaXPCkcR-6" parent="1" source="PgV0q_a90_hvE49-VI4S-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1020" y="484" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TGgTCEU2_xpwJaXPCkcR-8" value="InitNewPlayer()" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="950" y="2465" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TGgTCEU2_xpwJaXPCkcR-9" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="TGgTCEU2_xpwJaXPCkcR-8" parent="1" source="TGgTCEU2_xpwJaXPCkcR-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="980" y="2480" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TGgTCEU2_xpwJaXPCkcR-10" value="AGameSession::RegisterPlayer()&lt;br&gt;Will assign ids to player state" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1160" y="2430" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TGgTCEU2_xpwJaXPCkcR-11" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="TGgTCEU2_xpwJaXPCkcR-10" parent="1" source="TGgTCEU2_xpwJaXPCkcR-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1155" y="2464" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TGgTCEU2_xpwJaXPCkcR-13" value="Also create PlayerState" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1170" y="2270" width="170" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="TGgTCEU2_xpwJaXPCkcR-14" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="TGgTCEU2_xpwJaXPCkcR-13" parent="1" source="TGgTCEU2_xpwJaXPCkcR-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1165" y="2335" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1120" y="2380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TGgTCEU2_xpwJaXPCkcR-15" value="Set PlayerState&#39;s PlayerName" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1160" y="2540" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TGgTCEU2_xpwJaXPCkcR-16" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="TGgTCEU2_xpwJaXPCkcR-15" parent="1" source="TGgTCEU2_xpwJaXPCkcR-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1175" y="2570" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1090" y="2480" />
+              <mxPoint x="1080" y="2480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TGgTCEU2_xpwJaXPCkcR-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TGgTCEU2_xpwJaXPCkcR-20" target="TGgTCEU2_xpwJaXPCkcR-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TGgTCEU2_xpwJaXPCkcR-20" value="Other Controller Init" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="2570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TGgTCEU2_xpwJaXPCkcR-21" value="AGameModeBase::PostLogin()" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="645" y="2680" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TGgTCEU2_xpwJaXPCkcR-23" value="RPC is safe to call now!" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="945" y="2678" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TGgTCEU2_xpwJaXPCkcR-24" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="TGgTCEU2_xpwJaXPCkcR-23" parent="1" source="TGgTCEU2_xpwJaXPCkcR-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="950" y="2720" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TGgTCEU2_xpwJaXPCkcR-25" value="AGameSession::ApproveLogin() will check things like player number" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1020" y="1320" width="235" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="TGgTCEU2_xpwJaXPCkcR-26" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="TGgTCEU2_xpwJaXPCkcR-25" parent="1" source="PgV0q_a90_hvE49-VI4S-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1020" y="1390" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TGgTCEU2_xpwJaXPCkcR-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TGgTCEU2_xpwJaXPCkcR-27" target="PgV0q_a90_hvE49-VI4S-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TGgTCEU2_xpwJaXPCkcR-27" value="UWorld:;WelcomPlayer()" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="665" y="1580" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TGgTCEU2_xpwJaXPCkcR-31" value="GameInstance::ModifyClientTravelLevelURL()&lt;br&gt;Can modify the client travel url" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1020" y="1500" width="290" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="TGgTCEU2_xpwJaXPCkcR-32" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="TGgTCEU2_xpwJaXPCkcR-31" parent="1" source="TGgTCEU2_xpwJaXPCkcR-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1230" y="1457" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1050" y="1530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TGgTCEU2_xpwJaXPCkcR-33" value="AGameModeBase::GameWelcomePlayer()&lt;br&gt;can add redirect url(not used yet)" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1020" y="1590" width="270" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TGgTCEU2_xpwJaXPCkcR-34" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="TGgTCEU2_xpwJaXPCkcR-33" parent="1" source="TGgTCEU2_xpwJaXPCkcR-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1000" y="1630" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
