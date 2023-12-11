@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-07T05:01:51.345Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="YKmc_dX2be-4PELb1p6b" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-11T09:14:15.910Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="RgfEZuLwfu79hZBKUC1-" version="22.1.7" type="github">
   <diagram name="第 1 页" id="45hWRI977p0iXt-T-7tm">
-    <mxGraphModel dx="4879" dy="2238" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2853" dy="1119" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -161,7 +161,7 @@
         <mxCell id="PgV0q_a90_hvE49-VI4S-58" value="Set&amp;nbsp;Connection-&amp;gt;CurrentNetSpeed&amp;nbsp;" style="whiteSpace=wrap;html=1;fontSize=17;" parent="1" vertex="1">
           <mxGeometry x="607.13" y="1880" width="285.75" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="TGgTCEU2_xpwJaXPCkcR-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=17;" edge="1" parent="1" source="PgV0q_a90_hvE49-VI4S-60" target="TGgTCEU2_xpwJaXPCkcR-2">
+        <mxCell id="TGgTCEU2_xpwJaXPCkcR-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=17;" parent="1" source="PgV0q_a90_hvE49-VI4S-60" target="TGgTCEU2_xpwJaXPCkcR-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="750" y="2261" as="targetPoint" />
           </mxGeometry>
@@ -169,18 +169,18 @@
         <mxCell id="PgV0q_a90_hvE49-VI4S-60" value="Receive &lt;b&gt;Join&lt;/b&gt;&lt;br style=&quot;font-size: 17px;&quot;&gt;UWorld::NotifyControlMessage()" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=17;" parent="1" vertex="1">
           <mxGeometry x="610" y="2030" width="280" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="TGgTCEU2_xpwJaXPCkcR-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=17;" edge="1" parent="1" source="TGgTCEU2_xpwJaXPCkcR-2" target="TGgTCEU2_xpwJaXPCkcR-20">
+        <mxCell id="TGgTCEU2_xpwJaXPCkcR-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=17;" parent="1" source="TGgTCEU2_xpwJaXPCkcR-2" target="TGgTCEU2_xpwJaXPCkcR-20" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="750" y="2401" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TGgTCEU2_xpwJaXPCkcR-2" value="AGameModeBase::Login()" style="whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+        <mxCell id="TGgTCEU2_xpwJaXPCkcR-2" value="AGameModeBase::Login()" style="whiteSpace=wrap;html=1;fontSize=17;" parent="1" vertex="1">
           <mxGeometry x="632.5" y="2170" width="235" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="TGgTCEU2_xpwJaXPCkcR-3" value="SpawnPlayerController()" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fontSize=17;" vertex="1" parent="1">
+        <mxCell id="TGgTCEU2_xpwJaXPCkcR-3" value="SpawnPlayerController()" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fontSize=17;" parent="1" vertex="1">
           <mxGeometry x="910" y="2090" width="230" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="TGgTCEU2_xpwJaXPCkcR-4" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=17;" edge="1" target="TGgTCEU2_xpwJaXPCkcR-3" parent="1" source="TGgTCEU2_xpwJaXPCkcR-2">
+        <mxCell id="TGgTCEU2_xpwJaXPCkcR-4" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=17;" parent="1" source="TGgTCEU2_xpwJaXPCkcR-2" target="TGgTCEU2_xpwJaXPCkcR-3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="935" y="2331" as="sourcePoint" />
             <Array as="points">
@@ -188,34 +188,34 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="TGgTCEU2_xpwJaXPCkcR-6" value="Some delegates in FNetDelegates can be bound to check encryption logic" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fontSize=17;" vertex="1" parent="1">
+        <mxCell id="TGgTCEU2_xpwJaXPCkcR-6" value="Some delegates in FNetDelegates can be bound to check encryption logic" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fontSize=17;" parent="1" vertex="1">
           <mxGeometry x="915" y="450" width="350" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="TGgTCEU2_xpwJaXPCkcR-7" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=17;" edge="1" target="TGgTCEU2_xpwJaXPCkcR-6" parent="1" source="PgV0q_a90_hvE49-VI4S-14">
+        <mxCell id="TGgTCEU2_xpwJaXPCkcR-7" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=17;" parent="1" source="PgV0q_a90_hvE49-VI4S-14" target="TGgTCEU2_xpwJaXPCkcR-6" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1020" y="484" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TGgTCEU2_xpwJaXPCkcR-8" value="InitNewPlayer()" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fontSize=17;" vertex="1" parent="1">
+        <mxCell id="TGgTCEU2_xpwJaXPCkcR-8" value="InitNewPlayer()" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fontSize=17;" parent="1" vertex="1">
           <mxGeometry x="910" y="2210" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="TGgTCEU2_xpwJaXPCkcR-9" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=17;" edge="1" target="TGgTCEU2_xpwJaXPCkcR-8" parent="1" source="TGgTCEU2_xpwJaXPCkcR-2">
+        <mxCell id="TGgTCEU2_xpwJaXPCkcR-9" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=17;" parent="1" source="TGgTCEU2_xpwJaXPCkcR-2" target="TGgTCEU2_xpwJaXPCkcR-8" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="975" y="2321" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TGgTCEU2_xpwJaXPCkcR-10" value="AGameSession::RegisterPlayer()&lt;br style=&quot;font-size: 17px;&quot;&gt;Will assign ids to player state" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fontSize=17;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="TGgTCEU2_xpwJaXPCkcR-10" value="AGameSession::RegisterPlayer()&lt;br style=&quot;font-size: 17px;&quot;&gt;Will assign ids to player state" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fontSize=17;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="1195" y="2150" width="290" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="TGgTCEU2_xpwJaXPCkcR-11" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=17;" edge="1" target="TGgTCEU2_xpwJaXPCkcR-10" parent="1" source="TGgTCEU2_xpwJaXPCkcR-8">
+        <mxCell id="TGgTCEU2_xpwJaXPCkcR-11" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=17;" parent="1" source="TGgTCEU2_xpwJaXPCkcR-8" target="TGgTCEU2_xpwJaXPCkcR-10" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1150" y="2305" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TGgTCEU2_xpwJaXPCkcR-13" value="Also create PlayerState" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fontSize=17;" vertex="1" parent="1">
+        <mxCell id="TGgTCEU2_xpwJaXPCkcR-13" value="Also create PlayerState" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fontSize=17;" parent="1" vertex="1">
           <mxGeometry x="1195" y="2040" width="220" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="TGgTCEU2_xpwJaXPCkcR-14" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=17;" edge="1" target="TGgTCEU2_xpwJaXPCkcR-13" parent="1" source="TGgTCEU2_xpwJaXPCkcR-3">
+        <mxCell id="TGgTCEU2_xpwJaXPCkcR-14" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=17;" parent="1" source="TGgTCEU2_xpwJaXPCkcR-3" target="TGgTCEU2_xpwJaXPCkcR-13" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1160" y="2176" as="sourcePoint" />
             <Array as="points">
@@ -223,10 +223,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="TGgTCEU2_xpwJaXPCkcR-15" value="Set PlayerState&#39;s PlayerName" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fontSize=17;" vertex="1" parent="1">
+        <mxCell id="TGgTCEU2_xpwJaXPCkcR-15" value="Set PlayerState&#39;s PlayerName" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fontSize=17;" parent="1" vertex="1">
           <mxGeometry x="1195" y="2250" width="270" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="TGgTCEU2_xpwJaXPCkcR-16" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=17;" edge="1" target="TGgTCEU2_xpwJaXPCkcR-15" parent="1" source="TGgTCEU2_xpwJaXPCkcR-8">
+        <mxCell id="TGgTCEU2_xpwJaXPCkcR-16" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=17;" parent="1" source="TGgTCEU2_xpwJaXPCkcR-8" target="TGgTCEU2_xpwJaXPCkcR-15" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1170" y="2411" as="sourcePoint" />
             <Array as="points">
@@ -235,43 +235,43 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="TGgTCEU2_xpwJaXPCkcR-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=17;" edge="1" parent="1" source="TGgTCEU2_xpwJaXPCkcR-20" target="TGgTCEU2_xpwJaXPCkcR-21">
+        <mxCell id="TGgTCEU2_xpwJaXPCkcR-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=17;" parent="1" source="TGgTCEU2_xpwJaXPCkcR-20" target="TGgTCEU2_xpwJaXPCkcR-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="TGgTCEU2_xpwJaXPCkcR-20" value="Other Controller Initialization" style="whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+        <mxCell id="TGgTCEU2_xpwJaXPCkcR-20" value="Other Controller Initialization" style="whiteSpace=wrap;html=1;fontSize=17;" parent="1" vertex="1">
           <mxGeometry x="665.01" y="2310" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="TGgTCEU2_xpwJaXPCkcR-21" value="AGameModeBase::PostLogin()" style="whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+        <mxCell id="TGgTCEU2_xpwJaXPCkcR-21" value="AGameModeBase::PostLogin()" style="whiteSpace=wrap;html=1;fontSize=17;" parent="1" vertex="1">
           <mxGeometry x="617.51" y="2426" width="265" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="TGgTCEU2_xpwJaXPCkcR-23" value="RPC is safe to call now!&lt;br style=&quot;font-size: 17px;&quot;&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fontSize=17;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="TGgTCEU2_xpwJaXPCkcR-23" value="RPC is safe to call now!&lt;br style=&quot;font-size: 17px;&quot;&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fontSize=17;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="940" y="2370" width="220" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="TGgTCEU2_xpwJaXPCkcR-24" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=17;" edge="1" target="TGgTCEU2_xpwJaXPCkcR-23" parent="1" source="TGgTCEU2_xpwJaXPCkcR-21">
+        <mxCell id="TGgTCEU2_xpwJaXPCkcR-24" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=17;" parent="1" source="TGgTCEU2_xpwJaXPCkcR-21" target="TGgTCEU2_xpwJaXPCkcR-23" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="945" y="2561" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TGgTCEU2_xpwJaXPCkcR-25" value="AGameSession::ApproveLogin() will check things like player number capacity" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fontSize=17;" vertex="1" parent="1">
+        <mxCell id="TGgTCEU2_xpwJaXPCkcR-25" value="AGameSession::ApproveLogin() will check things like player number capacity" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fontSize=17;" parent="1" vertex="1">
           <mxGeometry x="965" y="1180" width="375" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="TGgTCEU2_xpwJaXPCkcR-26" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=17;" edge="1" target="TGgTCEU2_xpwJaXPCkcR-25" parent="1" source="TGgTCEU2_xpwJaXPCkcR-43">
+        <mxCell id="TGgTCEU2_xpwJaXPCkcR-26" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=17;" parent="1" source="TGgTCEU2_xpwJaXPCkcR-43" target="TGgTCEU2_xpwJaXPCkcR-25" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="895" y="1271" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TGgTCEU2_xpwJaXPCkcR-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=17;" edge="1" parent="1" source="TGgTCEU2_xpwJaXPCkcR-27" target="PgV0q_a90_hvE49-VI4S-40">
+        <mxCell id="TGgTCEU2_xpwJaXPCkcR-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=17;" parent="1" source="TGgTCEU2_xpwJaXPCkcR-27" target="PgV0q_a90_hvE49-VI4S-40" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="750" y="1571" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TGgTCEU2_xpwJaXPCkcR-27" value="UWorld:;WelcomPlayer()" style="whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+        <mxCell id="TGgTCEU2_xpwJaXPCkcR-27" value="UWorld:;WelcomPlayer()" style="whiteSpace=wrap;html=1;fontSize=17;" parent="1" vertex="1">
           <mxGeometry x="627.5" y="1404" width="245" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="TGgTCEU2_xpwJaXPCkcR-31" value="GameInstance::ModifyClientTravelLevelURL()&lt;br style=&quot;font-size: 17px;&quot;&gt;Can modify the client travel url" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fontSize=17;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="TGgTCEU2_xpwJaXPCkcR-31" value="GameInstance::ModifyClientTravelLevelURL()&lt;br style=&quot;font-size: 17px;&quot;&gt;Can modify the client travel url" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fontSize=17;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="957.5" y="1330" width="390" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="TGgTCEU2_xpwJaXPCkcR-32" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=17;" edge="1" target="TGgTCEU2_xpwJaXPCkcR-31" parent="1" source="TGgTCEU2_xpwJaXPCkcR-27">
+        <mxCell id="TGgTCEU2_xpwJaXPCkcR-32" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=17;" parent="1" source="TGgTCEU2_xpwJaXPCkcR-27" target="TGgTCEU2_xpwJaXPCkcR-31" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1225" y="1298" as="sourcePoint" />
             <Array as="points">
@@ -279,56 +279,64 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="TGgTCEU2_xpwJaXPCkcR-33" value="AGameModeBase::GameWelcomePlayer()&lt;br style=&quot;font-size: 17px;&quot;&gt;can add redirect url(not used yet)" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fontSize=17;" vertex="1" parent="1">
+        <mxCell id="TGgTCEU2_xpwJaXPCkcR-33" value="AGameModeBase::GameWelcomePlayer()&lt;br style=&quot;font-size: 17px;&quot;&gt;can add redirect url(not used yet)" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fontSize=17;" parent="1" vertex="1">
           <mxGeometry x="957.5" y="1426" width="370" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="TGgTCEU2_xpwJaXPCkcR-34" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=17;" edge="1" target="TGgTCEU2_xpwJaXPCkcR-33" parent="1" source="TGgTCEU2_xpwJaXPCkcR-27">
+        <mxCell id="TGgTCEU2_xpwJaXPCkcR-34" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=17;" parent="1" source="TGgTCEU2_xpwJaXPCkcR-27" target="TGgTCEU2_xpwJaXPCkcR-33" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="995" y="1471" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TGgTCEU2_xpwJaXPCkcR-35" value="Will try to spawn the Pawn in the end!" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fontSize=17;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="TGgTCEU2_xpwJaXPCkcR-35" value="Will try to spawn the Pawn in the end!" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fontSize=17;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="940" y="2426" width="330" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="TGgTCEU2_xpwJaXPCkcR-36" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=17;" edge="1" target="TGgTCEU2_xpwJaXPCkcR-35" parent="1" source="TGgTCEU2_xpwJaXPCkcR-21">
+        <mxCell id="TGgTCEU2_xpwJaXPCkcR-36" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=17;" parent="1" source="TGgTCEU2_xpwJaXPCkcR-21" target="TGgTCEU2_xpwJaXPCkcR-35" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="955" y="2601" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TGgTCEU2_xpwJaXPCkcR-37" value="Call OnPostLogin() event" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fontSize=17;" vertex="1" parent="1">
+        <mxCell id="TGgTCEU2_xpwJaXPCkcR-37" value="Call OnPostLogin() event" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fontSize=17;" parent="1" vertex="1">
           <mxGeometry x="940" y="2490" width="230" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="TGgTCEU2_xpwJaXPCkcR-38" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=17;" edge="1" target="TGgTCEU2_xpwJaXPCkcR-37" parent="1" source="TGgTCEU2_xpwJaXPCkcR-21">
+        <mxCell id="TGgTCEU2_xpwJaXPCkcR-38" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=17;" parent="1" source="TGgTCEU2_xpwJaXPCkcR-21" target="TGgTCEU2_xpwJaXPCkcR-37" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="945" y="2561" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TGgTCEU2_xpwJaXPCkcR-39" value="LocalPlayer:&lt;br style=&quot;border-color: var(--border-color); font-size: 17px;&quot;&gt;GetNickName()&lt;br style=&quot;border-color: var(--border-color); font-size: 17px;&quot;&gt;GetGameLoginOptions()&lt;br style=&quot;border-color: var(--border-color); font-size: 17px;&quot;&gt;GetPreferredUniqueNetId() -&amp;gt; set to Connection-&amp;gt;PlayerId" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fontSize=17;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="TGgTCEU2_xpwJaXPCkcR-39" value="LocalPlayer:&lt;br style=&quot;border-color: var(--border-color); font-size: 17px;&quot;&gt;GetNickName()&lt;br style=&quot;border-color: var(--border-color); font-size: 17px;&quot;&gt;GetGameLoginOptions()&lt;br style=&quot;border-color: var(--border-color); font-size: 17px;&quot;&gt;GetPreferredUniqueNetId() -&amp;gt; set to Connection-&amp;gt;PlayerId" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fontSize=17;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="-495" y="770" width="480" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="TGgTCEU2_xpwJaXPCkcR-40" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=17;" edge="1" target="TGgTCEU2_xpwJaXPCkcR-39" parent="1" source="PgV0q_a90_hvE49-VI4S-29">
+        <mxCell id="TGgTCEU2_xpwJaXPCkcR-40" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=17;" parent="1" source="PgV0q_a90_hvE49-VI4S-29" target="TGgTCEU2_xpwJaXPCkcR-39" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-400" y="930" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TGgTCEU2_xpwJaXPCkcR-41" value="GameInstance:&lt;br style=&quot;border-color: var(--border-color); font-size: 17px;&quot;&gt;GetOnlinePlatformName()" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fontSize=17;" vertex="1" parent="1">
+        <mxCell id="TGgTCEU2_xpwJaXPCkcR-41" value="GameInstance:&lt;br style=&quot;border-color: var(--border-color); font-size: 17px;&quot;&gt;GetOnlinePlatformName()" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fontSize=17;" parent="1" vertex="1">
           <mxGeometry x="-260" y="930" width="240" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="TGgTCEU2_xpwJaXPCkcR-42" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=17;" edge="1" target="TGgTCEU2_xpwJaXPCkcR-41" parent="1" source="PgV0q_a90_hvE49-VI4S-29">
+        <mxCell id="TGgTCEU2_xpwJaXPCkcR-42" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=17;" parent="1" source="PgV0q_a90_hvE49-VI4S-29" target="TGgTCEU2_xpwJaXPCkcR-41" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-453" y="1020" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TGgTCEU2_xpwJaXPCkcR-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=17;" edge="1" parent="1" source="TGgTCEU2_xpwJaXPCkcR-43" target="TGgTCEU2_xpwJaXPCkcR-27">
+        <mxCell id="TGgTCEU2_xpwJaXPCkcR-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=17;" parent="1" source="TGgTCEU2_xpwJaXPCkcR-43" target="TGgTCEU2_xpwJaXPCkcR-27" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="TGgTCEU2_xpwJaXPCkcR-45" value="Accepted" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=17;" vertex="1" connectable="0" parent="TGgTCEU2_xpwJaXPCkcR-44">
+        <mxCell id="TGgTCEU2_xpwJaXPCkcR-45" value="Accepted" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=17;" parent="TGgTCEU2_xpwJaXPCkcR-44" vertex="1" connectable="0">
           <mxGeometry x="-0.2741" y="4" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TGgTCEU2_xpwJaXPCkcR-43" value="AGameModeBase::PreLogin(Url, Address, UniqueNetId)" style="rhombus;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+        <mxCell id="TGgTCEU2_xpwJaXPCkcR-43" value="AGameModeBase::PreLogin(Url, Address, UniqueNetId)" style="rhombus;whiteSpace=wrap;html=1;fontSize=17;" parent="1" vertex="1">
           <mxGeometry x="595" y="1218" width="310" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="MVhcAM66ihmsrkAY8rlv-1" value="UGameInstance::CreateGameModeForURL()&lt;br&gt;Can create different gamemode rather than in world settings" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="-662" y="1809" width="500" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MVhcAM66ihmsrkAY8rlv-2" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="MVhcAM66ihmsrkAY8rlv-1" parent="1" source="PgV0q_a90_hvE49-VI4S-50">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-500" y="1880" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
