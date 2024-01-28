@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-28T07:53:07.567Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="UmEojmoBhci7hDhIDO9Y" version="23.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-28T08:05:21.103Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="eh4DylwF16nEYzlVei8j" version="23.0.2" type="github">
   <diagram name="第 1 页" id="eNk743Lgy3ztg70Z9EB9">
-    <mxGraphModel dx="2448" dy="895" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6616" dy="3197" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -171,6 +171,55 @@
         </mxCell>
         <mxCell id="QoKt7XNXczLMYl_EDJtm-61" value="Key types:&amp;nbsp;&lt;br&gt;FCharacterMoveResponseDataContainer" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="1015.01" y="1920" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QoKt7XNXczLMYl_EDJtm-62" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;dashed=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QoKt7XNXczLMYl_EDJtm-60" target="QoKt7XNXczLMYl_EDJtm-63">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="670" y="2000" as="sourcePoint" />
+            <mxPoint x="680" y="2070" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QoKt7XNXczLMYl_EDJtm-63" value="&lt;font color=&quot;#ff0d25&quot;&gt;MoveResponsePacked_ClientReceive()&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="97" y="2030" width="478" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="QoKt7XNXczLMYl_EDJtm-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="QoKt7XNXczLMYl_EDJtm-64">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="473.28211388221143" y="2100.2821138822114" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QoKt7XNXczLMYl_EDJtm-70" value="Good? Nothing special to do" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QoKt7XNXczLMYl_EDJtm-69">
+          <mxGeometry x="0.3391" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QoKt7XNXczLMYl_EDJtm-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QoKt7XNXczLMYl_EDJtm-64" target="QoKt7XNXczLMYl_EDJtm-72">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="278.41033466045656" y="2198.2308631310093" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QoKt7XNXczLMYl_EDJtm-73" value="Bad" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QoKt7XNXczLMYl_EDJtm-71">
+          <mxGeometry x="-0.1788" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QoKt7XNXczLMYl_EDJtm-64" value="Good Move?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="222" y="2060" width="114" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QoKt7XNXczLMYl_EDJtm-72" value="&lt;font color=&quot;#ff0d25&quot;&gt;ClientAdjustPosition_Implementation()&lt;/font&gt;&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- Revert movement states(pos, vel and so on) to the data sent from server&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- Deleted acknowledged FSavedMove history&lt;br&gt;- Prepare for &lt;font color=&quot;#1994ff&quot;&gt;replay&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="139" y="2278" width="281" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="QoKt7XNXczLMYl_EDJtm-74" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QoKt7XNXczLMYl_EDJtm-63" target="QoKt7XNXczLMYl_EDJtm-77">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="2540" as="sourcePoint" />
+            <mxPoint x="336" y="2490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QoKt7XNXczLMYl_EDJtm-76" value="Called in next tick if need &lt;font color=&quot;#1994ff&quot;&gt;replay&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QoKt7XNXczLMYl_EDJtm-74">
+          <mxGeometry x="-0.1699" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QoKt7XNXczLMYl_EDJtm-77" value="&lt;font color=&quot;#ff0d25&quot;&gt;ClientUpdatePositionAfterServerUpdate()&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;Replay history FSavedMoves so that the client still have movement prediction" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="151" y="2500" width="370" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
