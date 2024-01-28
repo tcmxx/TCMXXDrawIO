@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2024-01-28T07:12:23.103Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="hu7sXLWM3n1VCgiJeJ-t" version="23.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-28T07:21:47.593Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="8TTB8c7BOZdpmGkOk9pu" version="23.0.2" type="github">
   <diagram name="第 1 页" id="eNk743Lgy3ztg70Z9EB9">
-    <mxGraphModel dx="1158" dy="639" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2853" dy="1119" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="QoKt7XNXczLMYl_EDJtm-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QoKt7XNXczLMYl_EDJtm-15" target="QoKt7XNXczLMYl_EDJtm-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="QoKt7XNXczLMYl_EDJtm-15" value="Move and save the movement to FSavedMove" style="rounded=0;whiteSpace=wrap;html=1;horizontal=1;verticalAlign=top;align=center;" vertex="1" parent="1">
           <mxGeometry x="11.25" y="245" width="657.5" height="385" as="geometry" />
         </mxCell>
@@ -50,8 +53,32 @@
             <mxPoint x="370" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QoKt7XNXczLMYl_EDJtm-21" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="276" y="720" width="120" height="60" as="geometry" />
+        <mxCell id="QoKt7XNXczLMYl_EDJtm-21" value="If neccessary, send FSavedMoves to server" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="720" width="740" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="QoKt7XNXczLMYl_EDJtm-23" value="Key type: FSavedMove" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="496" y="280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QoKt7XNXczLMYl_EDJtm-25" value="Key type: FCharacterNetworkMoveDataContainer" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="424" y="750" width="264" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QoKt7XNXczLMYl_EDJtm-26" value="Sending at most three FSavedMoves using&amp;nbsp;FCharacterNetworkMoveDataContainer&lt;br&gt;CallServerMovePacked()&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="215" y="860" width="250" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QoKt7XNXczLMYl_EDJtm-27" value="Important moves are:&lt;br&gt;1. Old move: latest unacknowledged important move&lt;br&gt;2. New move: latest move&lt;br&gt;3. Pending move: move before new move that can not be combined and not sent yet" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;align=left;position2=1;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="760" width="220" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="QoKt7XNXczLMYl_EDJtm-28" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="QoKt7XNXczLMYl_EDJtm-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="341" y="815" as="sourcePoint" />
+            <mxPoint x="370" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QoKt7XNXczLMYl_EDJtm-29" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="QoKt7XNXczLMYl_EDJtm-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="1140" as="sourcePoint" />
+            <mxPoint x="341" y="985" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
