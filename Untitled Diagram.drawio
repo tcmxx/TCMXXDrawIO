@@ -1,13 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2025-02-13T13:19:12.226Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 Edg/132.0.0.0" etag="cNP5nvtHrRbg-XEBzysM" version="23.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2025-02-13T13:21:08.536Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 Edg/132.0.0.0" etag="uKAJG3XThXx7SERgyMUu" version="23.0.2" type="github">
   <diagram name="Page-1" id="rA7QcrsY9MnkE5HdZlki">
     <mxGraphModel dx="2893" dy="2284" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="8L2iTWa-a4FsQCQ_BJvb-195" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-220" y="-150" width="1610" height="1020" as="geometry" />
+        </mxCell>
         <mxCell id="8L2iTWa-a4FsQCQ_BJvb-191" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8L2iTWa-a4FsQCQ_BJvb-188" target="8L2iTWa-a4FsQCQ_BJvb-164">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8L2iTWa-a4FsQCQ_BJvb-188" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="8L2iTWa-a4FsQCQ_BJvb-188" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-140" y="-60" width="1460" height="490" as="geometry" />
         </mxCell>
         <mxCell id="8L2iTWa-a4FsQCQ_BJvb-164" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
@@ -49,7 +52,7 @@
         <mxCell id="8L2iTWa-a4FsQCQ_BJvb-127" value="时钟同步系统" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="310" y="681" width="111" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="8L2iTWa-a4FsQCQ_BJvb-128" value="预加载机制" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="8L2iTWa-a4FsQCQ_BJvb-128" value="预加载机制" style="whiteSpace=wrap;strokeWidth=2;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="460" y="681" width="95" height="34" as="geometry" />
         </mxCell>
         <mxCell id="8L2iTWa-a4FsQCQ_BJvb-129" value="普通视频显示组件" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
@@ -274,6 +277,12 @@
         </mxCell>
         <mxCell id="8L2iTWa-a4FsQCQ_BJvb-190" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.515;entryY=-0.004;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="8L2iTWa-a4FsQCQ_BJvb-188" target="8L2iTWa-a4FsQCQ_BJvb-163">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8L2iTWa-a4FsQCQ_BJvb-193" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;X Moview Assembler&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="-120" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8L2iTWa-a4FsQCQ_BJvb-194" value="业务层工具" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="-50" width="142" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
