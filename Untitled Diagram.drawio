@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2025-02-13T13:28:56.854Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 Edg/132.0.0.0" etag="_xEUYKjyIJ5jlYjlrTcY" version="23.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2025-02-13T13:32:30.858Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 Edg/132.0.0.0" etag="zDrx7GkL1K0rkRS_wDLl" version="23.0.2" type="github">
   <diagram name="Page-1" id="rA7QcrsY9MnkE5HdZlki">
     <mxGraphModel dx="2893" dy="2284" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -29,7 +29,7 @@
           <mxGeometry x="932.5" y="644" width="78" height="34" as="geometry" />
         </mxCell>
         <mxCell id="8L2iTWa-a4FsQCQ_BJvb-120" value="360视频显示组件" style="whiteSpace=wrap;strokeWidth=2;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="1142.5" y="640" width="104" height="34" as="geometry" />
+          <mxGeometry x="1110" y="640" width="136.5" height="34" as="geometry" />
         </mxCell>
         <mxCell id="8L2iTWa-a4FsQCQ_BJvb-121" value="业务层基础设施" style="whiteSpace=wrap;strokeWidth=2;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="741" y="-10" width="127" height="34" as="geometry" />
@@ -43,7 +43,7 @@
         <mxCell id="8L2iTWa-a4FsQCQ_BJvb-124" value="TouchControl 玩法框架" style="whiteSpace=wrap;strokeWidth=2;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="740" y="150" width="165" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="8L2iTWa-a4FsQCQ_BJvb-125" value="普通 3D 场景交互玩法框架" style="whiteSpace=wrap;strokeWidth=2;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="8L2iTWa-a4FsQCQ_BJvb-125" value="普通 3D 场景交互玩法框架" style="whiteSpace=wrap;strokeWidth=2;fontSize=15;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="918" y="150" width="192" height="44" as="geometry" />
         </mxCell>
         <mxCell id="8L2iTWa-a4FsQCQ_BJvb-126" value="动态追赶逻辑" style="whiteSpace=wrap;strokeWidth=2;fontSize=15;" vertex="1" parent="1">
