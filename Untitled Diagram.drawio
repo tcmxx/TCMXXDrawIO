@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2025-02-13T14:10:47.210Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 Edg/132.0.0.0" etag="1kLr4UL80Y2KhO35quT5" version="23.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2025-02-13T14:13:00.342Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 Edg/132.0.0.0" etag="-1FW-zZgy3lEZGyTctaB" version="23.0.2" type="github">
   <diagram name="Page-1" id="rA7QcrsY9MnkE5HdZlki">
     <mxGraphModel dx="2893" dy="2284" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -295,9 +295,23 @@
             <mxPoint x="470" y="137" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8L2iTWa-a4FsQCQ_BJvb-202" value="调用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8L2iTWa-a4FsQCQ_BJvb-201">
+        <mxCell id="8L2iTWa-a4FsQCQ_BJvb-202" value="开启结束" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8L2iTWa-a4FsQCQ_BJvb-201">
           <mxGeometry x="0.4078" y="58" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8L2iTWa-a4FsQCQ_BJvb-203" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.811;exitY=0.069;entryX=-0.011;entryY=0.706;rounded=0;exitDx=0;exitDy=0;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;exitPerimeter=0;" edge="1" parent="1" source="8L2iTWa-a4FsQCQ_BJvb-121" target="8L2iTWa-a4FsQCQ_BJvb-182">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="340" y="-40" />
+            </Array>
+            <mxPoint x="170" y="60" as="sourcePoint" />
+            <mxPoint x="494.7040000000002" y="140.01200000000017" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8L2iTWa-a4FsQCQ_BJvb-205" value="通知事件" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8L2iTWa-a4FsQCQ_BJvb-203">
+          <mxGeometry x="-0.4515" y="-44" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
