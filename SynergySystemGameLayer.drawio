@@ -5,10 +5,10 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="vfGWResDEGmkJYUrqxpX-1" value="" style="whiteSpace=wrap;strokeWidth=2;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="436" width="330" height="1242" as="geometry" />
+          <mxGeometry x="436" width="330" height="900" as="geometry" />
         </mxCell>
         <mxCell id="vfGWResDEGmkJYUrqxpX-2" value="" style="whiteSpace=wrap;strokeWidth=2;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="20" width="396" height="1242" as="geometry" />
+          <mxGeometry x="20" width="396" height="900" as="geometry" />
         </mxCell>
         <mxCell id="vfGWResDEGmkJYUrqxpX-3" value="初始化 SynergyAnalyzer" style="whiteSpace=wrap;strokeWidth=2;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="130" y="70" width="230" height="54" as="geometry" />
